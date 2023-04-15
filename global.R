@@ -8,7 +8,7 @@ library(ggtext) # ladny tekst ggplot
 library(ggcorrplot) # wykres korelacji
 library(shinycssloaders) 
 
-my_data<- read.csv("https://raw.githubusercontent.com/patipila/Dane/main/danecale.csv",sep=",")
+my_data<- read.csv("https://github.com/patipila/R-Shiny/blob/3e0bdb4adfeb3235f4429d66670dd0807645d2ac/danecale.csv",sep=",")
   
 country = rownames(my_data$country)
 
